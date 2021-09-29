@@ -9,12 +9,16 @@
         <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap" rel="stylesheet">
     </head>
     <body>
+        <audio id="myaudio" autoplay > 
+            <source src="../sounds/y2mate.com - Kiếm Hồn Lời Việt  OST Tân Anh Hùng Xạ Điêu 2017  Lee Phú Quý Nhạc phim kiếm hiệp Trung Quốc.mp3" type="audio/mp3">
+        </audio>
+        <script>document.getElementById('myaudio').play();</script>
         <div class="animation-area">
-            <ul class="box-area">
-                <li><img src="../image/thịnh anh.jpg" width="200" height="200"></li>
-                <li><img src="../image/quỳn.jpg" width="200" height="200"></li>
-                <li><img src="../image/nga xô.jpg" width="200" height="200"></li>
-                <li><img src="../image/lĩnh.jpg" width="200" height="200"></li>
+            <ul class="box-area" id="loop">
+                <li><img src="../image/thịnh anh.jpg"></li>
+                <li><img src="../image/quỳn.jpg" ></li>
+                <li><img src="../image/nga xô.jpg" ></li>
+                <li><img src="../image/lĩnh.jpg" ></li>
             </ul>
         </div>
     </body>

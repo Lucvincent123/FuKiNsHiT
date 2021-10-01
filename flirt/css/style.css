@@ -12,13 +12,36 @@ body {
 	height: 100vh;
 }
 .box-area {
-	position: absolute;
+	position: relative;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
 }
+
+.list-item {
+	position: absolute;
+	display: block;
+}
+
+.photo {
+	width: 200px;
+	position: absolute;
+	top: 0px;
+	animation: fall linear 10s;  
+}
+
+@keyframes fall {
+	from {
+		transform: translateY(-100vh);
+	}
+
+	to {
+		transform: translateY(800px);
+	}
+}
+/*
 .box-area li {
 	position: absolute;
 	display: block;
@@ -86,4 +109,4 @@ body {
 		height:100px;
 	  }
 	  
-}
+} */

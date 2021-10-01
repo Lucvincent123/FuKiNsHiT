@@ -11,15 +11,194 @@
     </head>
     <body>
         <div class="animation-area">
-            <audio  autoplay="" controls="" > 
+            <!-- <audio  autoplay="" controls="" > 
                 <source src="../sounds/abc.wav" type="audio/wav">
-            </audio>
+            </audio> -->
             <ul class="box-area" id="loop">
-                <li><img src="../image/thịnh anh.jpg"></li>
-                <li><img src="../image/quỳn.jpg" ></li>
-                <li><img src="../image/nga xô.jpg" ></li>
-                <li><img src="../image/lĩnh.jpg" ></li>
+                <!-- <li><img src="../image/thịnh anh.jpg" alt="Thịnh Anh"></li>
+                <li><img src="../image/quỳn.jpg" alt="Diễm Quỳnh"></li>
+                <li><img src="../image/nga xô.jpg" alt="Thanh Nga"></li>
+                <li><img src="../image/lĩnh.jpg" alt="Mỹ Lĩnh"></li>
+                <li><img src="../image/1b8b9ffbbf9776c92f8612.jpg" alt="Hồng Nam"></li>
+                <li><img src="../image/1d27c245e2292b7772386.jpg" alt="Thành Đạt"></li>
+                <li><img src="../image/1f7a7e795e15974bce0413.jpg" alt="Trung Nam"></li>
+                <li><img src="../image/2ab2daeffa8333dd6a925.jpg" alt="Đình Phước"></li>
+                <li><img src="../image/3e4bf35ed3321a6c432314.jpg" alt="Minh Cường"></li>
+                <li><img src="../image/6ad2d48af4e63db864f73.jpg" alt="Hữu Lộc"></li>
+                <li><img src="../image/6e2e736b53079a59c3164.jpg" alt="Thanh Khoa"></li>
+                <li><img src="../image/806b1406346afd34a47b9.jpg" alt="Công Hiếu"></li>
+                <li><img src="../image/95a9e9eac98600d859972.jpg" alt="Thanh Hùng"></li>
+                <li><img src="../image/c87bea6bca0703595a161.jpg" alt="Thanh Thái"></li>
+                <li><img src="../image/cd9f88f4a89861c638898.jpg" alt="Văn Thành"></li>
+                <li><img src="../image/dương đạt.jpg" alt="Dương Đạt"></li>
+                <li><img src="../image/f4aa2ed90eb5c7eb9ea410.jpg" alt="Trung Thiện"></li>
+                <li><img src="../image/f6ed369916f5dfab86e411.jpg" alt="Nguyễn Thanh Tấn"></li>
+                <li><img src="../image/nguyễn hưng.jpg" alt="Nguyễn Hưng"></li>
+                <li><img src="../image/nguyễn lễ.jpg" alt="Nguyễn Lễ"></li>
+                <li><img src="../image/nguyễn thanh bình.jpg" alt="Thanh Bình"></li>
+                <li><img src="../image/nguyễn đình huy.jpg" alt="Đình Huy"></li>
+                <li><img src="../image/thái hiệp.jpg" alt="Thái Hiệp"></li>
+                <li><img src="../image/trần hưng.jpg" alt="Trần Hưng"></li> -->
+                <!-- <li><img src="../image/" alt=""></li>
+                <li><img src="../image/" alt=""></li>
+                <li><img src="../image/" alt=""></li>
+                <li><img src="../image/" alt=""></li>
+                <li><img src="../image/" alt=""></li>
+                <li><img src="../image/" alt=""></li>
+                <li><img src="../image/" alt=""></li>
+                <li><img src="../image/" alt=""></li>
+                <li><img src="../image/" alt=""></li>
+                <li><img src="../image/" alt=""></li>
+                <li><img src="../image/" alt=""></li> -->
             </ul>
         </div>
+
+
+
+        <script>
+            var list = [
+                {
+                    name: "Trung Thiện",
+                    photo: "../image/f4aa2ed90eb5c7eb9ea410.jpg",
+                },
+
+                {
+                    name: "Thanh Khoa",
+                    photo: "../image/6e2e736b53079a59c3164.jpg",
+                },
+
+                {
+                    name: "Thịnh Anh",
+                    photo: "../image/thịnh anh.jpg",
+                },
+                
+                {
+                    name: "Thanh Nga",
+                    photo: "../image/nga xô.jpg",
+                },
+
+                {
+                    name: "Diễm Quỳnh",
+                    photo: "../image/quỳn.jpg",
+                },
+
+                {
+                    name: "Mỹ Lĩnh",
+                    photo: "../image/lĩnh.jpg",
+                },
+
+                {
+                    name: "Hồng Nam",
+                    photo: "../image/1b8b9ffbbf9776c92f8612.jpg",
+                },
+                
+                {
+                    name: "Thành Đạt",
+                    photo: "../image/1d27c245e2292b7772386.jpg",
+                },
+
+                {
+                    name: "Trung Nam",
+                    photo: "../image/1f7a7e795e15974bce0413.jpg.jpg",
+                },
+
+                {
+                    name: "Đình Phước",
+                    photo: "../image/2ab2daeffa8333dd6a925.jpg",
+                },
+
+                {
+                    name: "Minh Cường",
+                    photo: "../image/3e4bf35ed3321a6c432314.jpg",
+                },
+                
+                {
+                    name: "Hữu Lộc",
+                    photo: "../image/6ad2d48af4e63db864f73.jpg",
+                },
+
+                {
+                    name: "Công Hiếu",
+                    photo: "../image/806b1406346afd34a47b9.jpg",
+                },
+
+                {
+                    name: "Thanh Hùng",
+                    photo: "../image/95a9e9eac98600d859972.jpg",
+                },
+
+                {
+                    name: "Thanh Thái",
+                    photo: "../image/c87bea6bca0703595a161.jpg",
+                },
+                
+                {
+                    name: "Văn Thành",
+                    photo: "../image/cd9f88f4a89861c638898.jpg",
+                },
+
+                {
+                    name: "Dương Đạt",
+                    photo: "../image/dương đạt.jpg",
+                },
+
+                {
+                    name: "Nguyễn Thanh Tấn",
+                    photo: "../image/f6ed369916f5dfab86e411.jpg",
+                },
+
+                {
+                    name: "Nguyễn Hưng",
+                    photo: "../image/nguyễn hưng.jpg",
+                },
+                
+                {
+                    name: "Nguyễn Lễ",
+                    photo: "../image/nguyễn lễ.jpg",
+                },
+
+                {
+                    name: "Thanh Bình",
+                    photo: "../image/nguyễn thanh bình.jpg",
+                },
+
+                {
+                    name: "Đình Huy",
+                    photo: "../image/nguyễn đình huy.jpg",
+                },
+
+                {
+                    name: "Thái Hiệp",
+                    photo: "../image/thái hiệp.jpg",
+                },
+                
+                {
+                    name: "Trần Hưng",
+                    photo: "../image/trần hưng.jpg",
+                },
+            ];
+
+            
+            var showPhotos = function(list) {
+                var len = list.length,
+                    index = Math.floor(Math.random()*len),
+                    doc = document.getElementById("loop");
+                
+                const photo = document.createElement("li")
+                photo.classList.add("list_item")
+                photo.innerHTML = `<img class="photo" style="left: ${Math.floor(Math.random()*1000)}px" src="${list[index].photo}" alt="${list[index].name}">`;
+                doc.appendChild(photo)
+                setTimeout(function(){
+                    doc.removeChild(photo)
+                }, 10000)
+                
+            }
+            // showPhotos(list)
+            
+            setInterval(function(){ showPhotos(list); }, 3000);
+
+            
+        </script>
+
     </body>
 </html>
